@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta lang="en" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <title>Quad.Equa Calc.</title>
+</head>
+<body>
+
+<div class="row">
+  <div class="row eqa-head"><h2>Quadratic Equation Calculator</h2></div>
+  <div class="col-md-6 col-sm-12 col-md-offset-2 eqa-content">
+    <div class="col-md-5 col-sm-12 col-md-offset-10 content-1">
+      <select class="form-control">
+        <option value="">Select Equation Form</option>
+        <option value="linear">Ax2 + Bx + C = 0 </option>
+      </select>
+    </div>
+    <div class="col-md-12 col-sm-12 content-2">Ax<sup>2</sup> + Bx + C = 0 </div>
+  </div>
+  <div class="col-md-12 col-sm-12 equ-body">
+    <div class="col-md-1 col-md-offset-4">
+      <label>A</label>
+      <input class="form-control" id="a" type="number" placeholder="a">
+    </div>
+    <div class="col-md-1">
+      <label>B</label>
+      <input class="form-control" id="b" type="number" placeholder="b">
+    </div>
+    <div class="col-md-1">
+      <label>C</label>
+      <input class="form-control" id="c" type="number" placeholder="c">
+    </div>
+    <div class="col-md-2 equ-btn">
+      <button class="btn btn-default" id="equ-btn">Calculate</button>
+    </div>
+  </div>
+  <div class="col-md-12 col-sm-12 equ-foot">
+    <div class="col-md-4 col-sm-12 col-md-offset-4" id="answer">
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
